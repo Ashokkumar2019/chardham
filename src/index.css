@@ -1,0 +1,212 @@
+*{padding: 0; margin: 0;}
+p, a{
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+}
+.backSection{background-color: #f4eeee;}
+.container{padding: 5px 2%;}
+.pcontainer{padding: 30px 0px;}
+.carousel-caption{ background-color: rgba(0, 0, 0, 0.4);}
+.placeform{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+}
+button.btn {
+    background: #e99c10;
+    color: #fff;
+    padding: 5px 21px;
+}
+.placeform input {
+    padding: 3px 10px;
+    min-width: 20vw;
+}
+.back_img{
+    background-image: url('./assets/back.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 100vh;
+  padding: 20px;
+
+}
+.back_img .row{
+  
+    color: #fff;
+    flex-wrap: wrap;
+}
+.subscribe input {
+    padding: 5px 10px;
+    width: 22vw;
+}
+.subscribe button {
+    padding: 5px 10px;
+    
+}
+.blogclass{
+    position: relative !important;
+    display: block;
+    width: 100%;    
+    right: 0%  !important;
+    bottom: 0rem  !important;
+    left: 0%  !important;
+    padding-top: 4.25rem  !important;
+    padding-bottom: 4.25rem  !important;
+    color: #fff;
+    text-align: center;
+    max-width: auto !important;
+    background: orange;
+    color: #000;
+
+
+}
+.navbars {
+  background-color: #f4eeee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.card{position: relative;}
+.hovereff{
+  content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.4);
+transition: width 1s, height 1s, transform 1s;
+}
+.card:hover .hovereff{
+  height: 0px;
+  width: 0px;
+  
+  transform: rotate(180deg);
+}
+.circle-image {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    overflow: hidden; 
+  }
+  .footerse{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 0px;
+    color: #fff;
+  }
+  .footerse li{
+   
+    list-style-type: none;
+  }
+  .footerse li a{
+   
+    
+    text-decoration: none;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  .two_col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     
+  }
+  .two_col li{
+    flex: 1 1 48%;
+  }
+  .footerimg{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap:20px
+
+  }
+  .footerimg img{
+    width: 80px;
+    border-radius: 4px;
+    border: 2px solid #fff;
+  }
+  .footerse h3{
+    line-height: 70px;
+  }
+  .backg_img{
+    position: relative;
+      width: 100%;
+      height: 300px;
+  }
+  .backg_img::before{
+    content: "";
+    background-image: url('./src/assets/gangotri-3.jpg'); 
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .aboutback h2{font-size: 20px; color: #ffa500;}
+  .aboutback h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px; 
+    color: #ffa500;
+  }
+  .chardham h2{font-size: 20px;margin-top: 20px; color: #ffa500;}
+  .chardham h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px; 
+    color: #ffa500;
+  }
+  /* Contact.css */
+.contact-info p {
+  margin-bottom: 15px;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.contact-form p {
+  margin-bottom: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background: #ffa500;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #555;
+}
+
+.map iframe {
+  border: 0;
+  height: 400px;
+}

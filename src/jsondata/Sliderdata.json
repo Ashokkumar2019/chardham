@@ -1,0 +1,27 @@
+[
+    {
+      "image": "./src/assets/kedarnath-1.jpg",
+      "heading": "Kedarnath",
+      "detail": "Kedarnath is a famous Hindu pilgrimage site located in the Indian state of Uttarakhand. It is part of the Char Dham Yatra and is dedicated to Lord Shiva.",
+      "link": "https://example.com/kedarnath"
+    },
+    {
+      "image": "./src/assets/badrinath-2.jpg",
+      "heading": "Badrinath",
+      "detail": "Badrinath is another significant pilgrimage site in Uttarakhand, dedicated to Lord Vishnu. It is one of the Char Dham and attracts numerous devotees each year.",
+      "link": "https://example.com/badrinath"
+    },
+    {
+      "image": "./src/assets/gangotri-3.jpg",
+      "heading": "Gangotri",
+      "detail": "Gangotri is a sacred town in Uttarakhand, known as the origin of the Ganges River. It is an important pilgrimage site for Hindus and is part of the Char Dham Yatra.",
+      "link": "https://example.com/gangotri"
+    },
+    {
+      "image": "./src/assets/yamunotri-4.jpg",
+      "heading": "Yamunotri",
+      "detail": "Yamunotri is the source of the Yamuna River and a significant pilgrimage site in Uttarakhand. It is the starting point of the Char Dham Yatra.",
+      "link": "https://example.com/yamunotri"
+    }
+  ]
+  

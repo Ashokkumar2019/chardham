@@ -1,0 +1,75 @@
+[
+    {
+      "title": "Kedarnath",
+      "description": "A revered Hindu temple dedicated to Lord Shiva, located in the Indian state of Uttarakhand.",
+      "imagePath": "./src/assets/card/cc1.jpg",
+      "URL": "https://www.google.com"
+    },
+    {
+      "title": "Badrinath",
+      "description": "A prominent pilgrimage site in Uttarakhand, dedicated to Lord Vishnu, known for its scenic beauty and spiritual significance.",
+      "imagePath": "./src/assets/card/cc2.jpg",
+      "URL": "https://www.google.com"
+    },
+    {
+      "title": "Gangotri",
+      "description": "The source of the Ganges River, a sacred place in Uttarakhand where pilgrims come to bathe in the holy river.",
+      "imagePath": "./src/assets/card/cc3.jpg",
+      "URL": "https://www.google.com"
+    },
+    {
+      "title": "Yamunotri",
+      "description": "The source of the Yamuna River, another important pilgrimage site in Uttarakhand, famous for its hot springs.",
+      "imagePath": "./src/assets/card/cc4.jpg",
+      "URL": "https://www.google.com"
+    },
+    {
+      "title": "Kedarnath Temple",
+      "description": "The ancient temple dedicated to Lord Shiva, located in the Kedarnath region, is an essential part of the Char Dham pilgrimage.",
+      "imagePath": "./src/assets/card/cc5.jpg",
+      "URL": "https://www.google.com"
+    },
+    {
+      "title": "Badrinath Temple",
+      "description": "A sacred temple dedicated to Lord Vishnu, situated in the Badrinath region, known for its intricate carvings and religious significance.",
+      "imagePath": "./src/assets/card/cc6.jpg",
+      "URL": "https://www.google.com"
+    },
+    {
+      "title": "Gangotri Temple",
+      "description": "The temple dedicated to Goddess Ganga, located at the source of the Ganges River, attracting thousands of devotees every year.",
+      "imagePath": "./src/assets/card/cc7.jpg",
+      "URL": "https://www.google.com"
+    },
+    {
+      "title": "Yamunotri Temple",
+      "description": "The temple dedicated to Goddess Yamuna, located at the source of the Yamuna River, known for its sacred thermal springs.",
+      "imagePath": "./src/assets/card/cc8.jpg",
+      "URL": "https://www.google.com"
+    },
+    {
+      "title": "Kedarnath Trek",
+      "description": "A challenging trek that takes pilgrims through beautiful landscapes to reach the Kedarnath temple, surrounded by snow-capped peaks.",
+      "imagePath": "./src/assets/card/cc9.jpg",
+      "URL": "https://www.google.com"
+    },
+    {
+      "title": "Badrinath Yatra",
+      "description": "The pilgrimage journey to Badrinath, known for its spiritual significance and the scenic beauty of the surrounding mountains.",
+      "imagePath": "./src/assets/card/cc10.jpg",
+      "URL": "https://www.google.com"
+    },
+    {
+      "title": "Gangotri Yatra",
+      "description": "The pilgrimage to Gangotri, where devotees come to pay homage to Goddess Ganga and bathe in the holy river.",
+      "imagePath": "./src/assets/card/cc11.jpg",
+      "URL": "https://www.google.com"
+    },
+    {
+      "title": "Yamunotri Yatra",
+      "description": "The pilgrimage to Yamunotri, featuring a visit to the sacred temple and the thermal springs located at the source of the Yamuna River.",
+      "imagePath": "./src/assets/card/cc12.jpg",
+      "URL": "https://www.google.com"
+    }
+  ]
+  
