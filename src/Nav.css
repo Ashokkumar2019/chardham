@@ -4,7 +4,7 @@
 .navbars{background-color: #f4eeee;}
 .sublink{position: relative; display: block;}
 .sublinkul{
-    position: absolute;
+    position: fixed;
     list-style-type: none;
     background-color:#f4eeee ;
     z-index: 99;
@@ -14,4 +14,42 @@
 .sublink:hover .sublinkul{
     display: block;
 }
+.mob-nav{
+    flex-wrap: wrap;
+}
+.navicon{
+    display: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .mob-nav.hide {
+        display: none; 
+      }
+      .navicon {
+        display: block;
+      }
+      .mob-nav .nav{
+        display: grid;
+        padding-top: 5px;
+      }
+      .mob-nav .grid-mob{
+        display: grid;
+        padding-top: 5px;
+      }
+      .rowmob{
+        display: grid !important;
+        align-items: start !important; 
+        grid-template-columns: 1fr 1fr;
+        overflow: hidden;
+      }
+      /* .sublinkul{
+        position: relative;
+      } */
+      
+   
+    
+}
+
 

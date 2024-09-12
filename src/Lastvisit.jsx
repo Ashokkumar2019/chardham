@@ -1,6 +1,7 @@
 import React from 'react'
 import data from './jsondata/Visit.json'
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export default function Lastvisit() {
   return (
@@ -16,7 +17,7 @@ export default function Lastvisit() {
             <Card.Body>
               <Card.Title>{item.title}</Card.Title>
               <Card.Text>{item.description}</Card.Text>
-              <Button variant="primary" href={item.url}>Learn More</Button>
+              <Link to={item.URL}>Learn More</Link> 
             </Card.Body>
           </Card>
         </Col>
