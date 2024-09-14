@@ -1,55 +1,118 @@
 .m_logo{max-width: 60px;}
 .nav{align-items: center;}
-.navbars .container .row{align-items: center;}
-.navbars{background-color: #f4eeee;}
+.desktop-nav .row{align-items: center;}
+/* .navbars{background-color: #f4eeee;} */
 .sublink{position: relative; display: block;}
+
 .sublinkul{
-    position: fixed;
+    position: absolute;
     list-style-type: none;
     background-color:#f4eeee ;
-    z-index: 99;
+    z-index: 999999 !important;
     display: none;
+    left: 0px;
+    top: 40px;
+    padding: 1rem !important;
     
 }
+
 .sublink:hover .sublinkul{
     display: block;
 }
-.mob-nav{
-    flex-wrap: wrap;
-}
+
 .navicon{
-    display: none;
-    cursor: pointer;
+        cursor: pointer;
+        text-align: right;
+}
+.mob-nav.hide {
+  display: none; 
+}
+.mob-background{
+  position: relative;
+}
+.mob-nav.show {
+  display: block;
+  position: absolute;
+  z-index: 9999;
+  background-color: #000;
+  top: 0;
+  width: 71%;
+}
+.mobile-nav{
+  display: none;
+}
+.chevicon{font-size: 10px;}
+
+.mob-nav .nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+ 
+}
+.mobile-nav .row{
+  justify-content: space-between;
+  
+}
+.mob-background a{
+  background-color: transparent !important;
+  color: #fff;
+  padding-right: 0px;
+}
+.mob-nav .nav-link:focus, .mob-nav .nav-link:hover {
+    color: #fff;
+   text-decoration: underline;
 }
 
-@media only screen and (max-width: 768px) {
+.mob-background .sublinkul{
+  background-color: rgb(0, 0, 0,0.8);
+  color: #fff;
+  position: absolute;
+  list-style-type: none;
+  z-index: 999999 !important;
+  display: none;
+  left: 83px;
+  top: 5px;
+  padding: 1rem !important;
+}
+.sublinkul a{padding-right:10px;}
+.grid-mob{
+  position: fixed;
+  background-color: rgb(245, 207, 40);
+  color: #000;
+  display: grid;
+  grid-template-columns: 1fr;
+  top: 50%;
+}
+.hslide{
+  right: -70px;
+}
+.sslide{
+  right: 0px;
+}
+.sh-btn{
+  position: fixed;
+    right: -12px;
+    top: 45%;
+    z-index: 99999999;
+}
+.bshow{
+  display: none !important;
+  color: #fff;
+}
+.bhide{
+  display: block !important;
+  color:#fff;
+}
+@media only screen and (max-width: 1024px) {
+  .navbars{
+    background-color: rgb(0, 0, 0,0.8) !important;
+    color: #fff;
+  }
     
-    .mob-nav.hide {
-        display: none; 
-      }
-      .navicon {
-        display: block;
-      }
-      .mob-nav .nav{
-        display: grid;
-        padding-top: 5px;
-      }
-      .mob-nav .grid-mob{
-        display: grid;
-        padding-top: 5px;
-      }
-      .rowmob{
-        display: grid !important;
-        align-items: start !important; 
-        grid-template-columns: 1fr 1fr;
-        overflow: hidden;
-      }
-      /* .sublinkul{
-        position: relative;
-      } */
-      
-   
-    
+  .mobile-nav{
+    display: block;
+  }
+  .desktop-nav{display: none;} 
 }
 
 

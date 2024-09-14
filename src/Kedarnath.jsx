@@ -3,12 +3,26 @@ import { Container, Row, Col} from 'react-bootstrap';
 import Lastvisit from './Lastvisit';
 import Footers from './Footers';
 import Blogs from './Blogs';
+import Ratio from 'react-bootstrap/Ratio';
 
 export default function Kedarnath() {
   return (
    
     <div className='chardham'>
-      <img src="./src/assets/kedarnath-1.jpg" alt="" className='w-100'/>
+        <div>
+  <Ratio aspectRatio="16x9">
+    <video
+      src="./src/assets/Basrinath-s.mp4"
+      controls
+      width="100%"
+      height="100%"
+      autoPlay={true}
+      muted={true}
+    >
+     
+    </video>
+  </Ratio>
+</div>
       <br />
       <Container>
         <Row>
