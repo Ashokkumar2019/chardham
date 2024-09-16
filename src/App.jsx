@@ -28,7 +28,7 @@ function App() {
           <Route path="/Yamunotri" element={<Yamunotri/>} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </div>
+      </div> 
     </Router>
     
     
