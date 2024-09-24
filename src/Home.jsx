@@ -3,7 +3,7 @@ import Slider from './Slider'
 import Search from './Search'
 import News from './News'
 import Newscard from './Newscard'
-import Subscribe from './subscribe'
+// import Subscribe from './subscribe'
 import Videoplay from './Videoplay'
 import Blogs from './Blogs'
 import Footers from './Footers'
@@ -29,7 +29,7 @@ export default function Home() {
       <Newscard/>
     </div>
     <div className="subscribeSection">
-    <Subscribe/>
+{/*     <Subscribe/> */}
     </div>
     <div className="videosection">
       <Videoplay/>
