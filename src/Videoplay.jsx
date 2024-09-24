@@ -7,19 +7,11 @@ export default function Videoplay() {
     
    <Container className="mt-5">
    
-   <div>
-  <Ratio aspectRatio="16x9">
-    <video
-      src="./src/assets/Badrinath.mp4"
-      controls
-      width="100%"
-      height="100%"
-      autoPlay={false} 
-    >
-     
-    </video>
-  </Ratio>
-</div>
+  <video style={{width:'85vw'}}  controls>
+   <source src="/video1.mp4" type="video/mp4"/>
+ 
+  
+  </video>
  </Container>
 
  
