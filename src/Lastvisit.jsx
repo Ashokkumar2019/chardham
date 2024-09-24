@@ -12,7 +12,7 @@ export default function Lastvisit() {
       {data.map((item, index) => (
         <Col key={index} md={3} sm={6} className="mb-4">
           <Card className="h-100 d-flex flex-column">
-            <div className="hovereff"></div>
+          
             <Card.Img variant="top" src={item.imagePath} alt={item.title} />
             <Card.Body>
               <Card.Title>{item.title}</Card.Title>
