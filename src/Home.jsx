@@ -18,7 +18,7 @@ export default function Home() {
     <div className="carousalsection">
       <Slider/>
     </div>
-{/*     <div className="searchsection">
+    {/* <div className="searchsection">
       <Search/>
     </div> */}
     <div className='backSection'>
@@ -28,10 +28,8 @@ export default function Home() {
     <div className="contentcardsection">
       <Newscard/>
     </div>
-    <div className="subscribeSection">
-    <Subscribe/>
-    </div>
-{/*     <div className="videosection">
+    
+    {/* <div className="videosection">
       <Videoplay/>
     </div> */}
     <div className="blog">
@@ -39,6 +37,9 @@ export default function Home() {
     </div>
     <div className="recenttrip py-5">
     <Lastvisit/>
+    </div>
+    <div className="subscribeSection">
+    <Subscribe/>
     </div>
     <div className="footersection">
       <Footers/>
