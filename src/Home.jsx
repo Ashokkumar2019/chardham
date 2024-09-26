@@ -31,9 +31,9 @@ export default function Home() {
     <div className="subscribeSection">
 {/*     <Subscribe/> */}
     </div>
-    <div className="videosection">
+{/*     <div className="videosection">
       <Videoplay/>
-    </div>
+    </div> */}
     <div className="blog">
       <Blogs/>
     </div>
