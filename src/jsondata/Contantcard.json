@@ -1,74 +1,28 @@
 [
     {
       "title": "Kedarnath",
-      "description": "A revered Hindu temple dedicated to Lord Shiva, located in the Indian state of Uttarakhand.",
+      "description": 
+"Located at 3,583 meters, Kedarnath is one of the twelve Jyotirlingas dedicated to Lord Shiva. The journey to this temple is both challenging and rewarding, with stunning views along the trek.",
       "imagePath": "/cc1.jpg",
       "URL": "https://www.google.com"
     },
     {
       "title": "Badrinath",
-      "description": "A prominent pilgrimage site in Uttarakhand, dedicated to Lord Vishnu, known for its scenic beauty and spiritual significance.",
+      "description": "Dedicated to Lord Vishnu, Badrinath is famous for its ancient temple, situated at an altitude of 3,133 meters. The pristine waters of the Alaknanda River and the backdrop of the Nar and Narayan mountains add to its allure.",
       "imagePath": "/cc2.jpg",
       "URL": "https://www.google.com"
     },
     {
       "title": "Gangotri",
-      "description": "The source of the Ganges River, a sacred place in Uttarakhand where pilgrims come to bathe in the holy river.",
+      "description": "Gangotri is the origin of the Ganges River and holds deep spiritual significance. The temple here is dedicated to Goddess Ganga, and the serene surroundings make it a tranquil spot for reflection and prayer.",
       "imagePath": "/cc3.jpg",
       "URL": "https://www.google.com"
     },
     {
       "title": "Yamunotri",
-      "description": "The source of the Yamuna River, another important pilgrimage site in Uttarakhand, famous for its hot springs.",
+      "description": 
+"The starting point of the Yamuna River, Yamunotri is dedicated to Goddess Yamuna. The trek to the temple is picturesque, with hot springs and beautiful landscapes along the way.",
       "imagePath": "/cc4.jpg",
-      "URL": "https://www.google.com"
-    },
-    {
-      "title": "Kedarnath Temple",
-      "description": "The ancient temple dedicated to Lord Shiva, located in the Kedarnath region, is an essential part of the Char Dham pilgrimage.",
-      "imagePath": "/cc5.jpg",
-      "URL": "https://www.google.com"
-    },
-    {
-      "title": "Badrinath Temple",
-      "description": "A sacred temple dedicated to Lord Vishnu, situated in the Badrinath region, known for its intricate carvings and religious significance.",
-      "imagePath": "/cc6.jpg",
-      "URL": "https://www.google.com"
-    },
-    {
-      "title": "Gangotri Temple",
-      "description": "The temple dedicated to Goddess Ganga, located at the source of the Ganges River, attracting thousands of devotees every year.",
-      "imagePath": "/cc7.jpg",
-      "URL": "https://www.google.com"
-    },
-    {
-      "title": "Yamunotri Temple",
-      "description": "The temple dedicated to Goddess Yamuna, located at the source of the Yamuna River, known for its sacred thermal springs.",
-      "imagePath": "/cc8.jpg",
-      "URL": "https://www.google.com"
-    },
-    {
-      "title": "Kedarnath Trek",
-      "description": "A challenging trek that takes pilgrims through beautiful landscapes to reach the Kedarnath temple, surrounded by snow-capped peaks.",
-      "imagePath": "/cc9.jpg",
-      "URL": "https://www.google.com"
-    },
-    {
-      "title": "Badrinath Yatra",
-      "description": "The pilgrimage journey to Badrinath, known for its spiritual significance and the scenic beauty of the surrounding mountains.",
-      "imagePath": "/cc10.jpg",
-      "URL": "https://www.google.com"
-    },
-    {
-      "title": "Gangotri Yatra",
-      "description": "The pilgrimage to Gangotri, where devotees come to pay homage to Goddess Ganga and bathe in the holy river.",
-      "imagePath": "/cc11.jpg",
-      "URL": "https://www.google.com"
-    },
-    {
-      "title": "Yamunotri Yatra",
-      "description": "The pilgrimage to Yamunotri, featuring a visit to the sacred temple and the thermal springs located at the source of the Yamuna River.",
-      "imagePath": "/cc12.jpg",
       "URL": "https://www.google.com"
     }
   ]
