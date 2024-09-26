@@ -6,6 +6,7 @@ export default function Lastvisit() {
   return (
     <div>
     <h2 className='text-center my-5'> top selling packages</h2>
+      <h2 className='text-center my-5'>Do Dham packages</h2> 
     <Container>
     <Row>
       {data.map((item, index) => (
