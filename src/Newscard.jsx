@@ -14,7 +14,7 @@ export default function Newscard() {
             <Card.Body>
               <Card.Title>{item.title}</Card.Title>
               <Card.Text>{item.description}</Card.Text>
-              <Button variant="primary" href={item.url}>Learn More</Button>
+{/*               <Button variant="primary" href={item.url}>Learn More</Button> */}
             </Card.Body>
           </Card>
         </Col>
