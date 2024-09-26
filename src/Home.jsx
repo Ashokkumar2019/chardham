@@ -18,9 +18,9 @@ export default function Home() {
     <div className="carousalsection">
       <Slider/>
     </div>
-    <div className="searchsection">
+{/*     <div className="searchsection">
       <Search/>
-    </div>
+    </div> */}
     <div className='backSection'>
     <div className="newssection">
       <News/>
