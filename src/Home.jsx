@@ -29,7 +29,7 @@ export default function Home() {
       <Newscard/>
     </div>
     <div className="subscribeSection">
-{/*     <Subscribe/> */}
+    <Subscribe/>
     </div>
 {/*     <div className="videosection">
       <Videoplay/>
