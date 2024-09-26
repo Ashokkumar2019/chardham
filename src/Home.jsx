@@ -38,9 +38,9 @@ export default function Home() {
     <div className="recenttrip py-5">
     <Lastvisit/>
     </div>
-{/*     <div className="subscribeSection">
+    <div className="subscribeSection">
     <Subscribe/>
-    </div> */}
+    </div>
     <div className="footersection">
       <Footers/>
     </div>
