@@ -1,11 +1,11 @@
 import React from 'react'
 import data from './jsondata/Visit.json'
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button, Placeholder } from 'react-bootstrap';
 
 export default function Lastvisit() {
   return (
     <div>
-    <h2 className='text-center my-5'>Last Visit Place</h2>
+    <h2 className='text-center my-5'> top selling packages</h2>
     <Container>
     <Row>
       {data.map((item, index) => (
@@ -15,8 +15,9 @@ export default function Lastvisit() {
             <Card.Img variant="top" src={item.imagePath} alt={item.title} />
             <Card.Body>
               <Card.Title>{item.title}</Card.Title>
+              <Card.Title className='fw-bold text-danger' >{item.price}</Card.Title>
               <Card.Text>{item.description}</Card.Text>
-              <Button variant="primary" href={item.url}>Learn More</Button>
+              {/* <Button variant="primary" href={item.url}>Learn More</Button> */}
             </Card.Body>
           </Card>
         </Col>
