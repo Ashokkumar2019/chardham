@@ -22,7 +22,7 @@ export default function Navi() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-          <Nav.Link as={Link} to="/">MY Home</Nav.Link>
+          <Nav.Link as={Link} to="/">Home</Nav.Link>
           <Nav.Link as={Link} to="/about">About</Nav.Link>
             <NavDropdown title="Places" id="collapsible-nav-dropdown">
             <NavDropdown.Item as={Link} to="/Badrinath">
@@ -50,11 +50,11 @@ export default function Navi() {
           <Nav>
             <Nav.Link href="#deets"> 
             <i className="fas fa-phone" style={{ fontSize: '1em', color: '#aeabab' }}></i>
-            <span style={{ fontSize: '1em', color: '#aeabab' }}>+91 878978998</span>
+            <span style={{ fontSize: '1em', color: '#aeabab' }}>+91 9997336127</span>
             </Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
             <i className="fab fa-instagram" style={{ fontSize: '1em', color: '#aeabab' }}></i>
-Instagram Link
+    Instagram 
 
             </Nav.Link>
           </Nav>
