@@ -67,8 +67,8 @@ export default function About() {
   </Row>
   <div className='text-center pt-5'>
   <h2>Customer Review:</h2>
- <p>"Sewa Samiti made my pilgrimage an unforgettable and stress-free experience. They handled every detail, from accommodations to meals, allowing me to fully focus on the spiritual journey. The team’s professionalism and care ensured a seamless and peaceful experience throughout. I highly recommend them to anyone seeking a meaningful and hassle-free yatra!" — [Raunak]</p>
- <p>"My journey with Sewa Samiti was incredible! Everything was perfectly organized, from travel arrangements to the itinerary, which allowed me to truly enjoy the spiritual experience. The team was attentive and made sure I had a comfortable, worry-free pilgrimage. I would definitely choose Sewa Samiti again!" — [Divy]</p>
+ <p>"<strong>Sewa Samiti</strong> made my pilgrimage an unforgettable and stress-free experience. They handled every detail, from accommodations to meals, allowing me to fully focus on the spiritual journey. The team’s professionalism and care ensured a seamless and peaceful experience throughout. I highly recommend them to anyone seeking a meaningful and hassle-free yatra!" — [Raunak]</p>
+ <p>"My journey with <strong>Sewa Samiti</strong> was incredible! Everything was perfectly organized, from travel arrangements to the itinerary, which allowed me to truly enjoy the spiritual experience. The team was attentive and made sure I had a comfortable, worry-free pilgrimage. I would definitely choose <strong>Sewa Samiti</strong> again!" — [Divy]</p>
  </div>
  </Container>
  
