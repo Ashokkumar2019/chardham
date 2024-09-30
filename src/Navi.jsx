@@ -22,7 +22,7 @@ export default function Navi() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-          <Nav.Link as={Link} to="/">Home</Nav.Link>
+          <Nav.Link as={Link} to="/">MY Home</Nav.Link>
           <Nav.Link as={Link} to="/about">About</Nav.Link>
             <NavDropdown title="Places" id="collapsible-nav-dropdown">
             <NavDropdown.Item as={Link} to="/Badrinath">
