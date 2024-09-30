@@ -54,7 +54,7 @@ export default function Navi() {
             </Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
             <i className="fab fa-instagram" style={{ fontSize: '1em', color: '#aeabab' }}></i>
-Instagram
+Instagram Link
 
             </Nav.Link>
           </Nav>
