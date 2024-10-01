@@ -67,7 +67,7 @@ console.log(place);
   </div>
   <div class="container1 right1">
     <div class="content1">
-      <h2>Day 2: Explore Badrinath & Return to Rishikesh</h2>
+      <h2>Day 2: Kedarnath to Rishikesh</h2>
       <ul>
         <li><strong>4:30 AM: </strong> Attend the morning Aarti at Kedarnath Temple.</li>
         <li><strong>Morning: </strong>Breakfast and explore the temple.</li>
@@ -86,6 +86,51 @@ console.log(place);
      <li><strong>Check weather and road conditions.</strong></li>
      <li><strong>Pre-book accommodation.</strong></li>
      <li><strong>Wear comfortable trekking shoes.</strong></li>
+ </ul>
+ 
+ 
+   </div>
+   </div>}
+
+
+
+
+   {/* Gangotri itenary */}
+{place==='GI'&&<div name='badrinath'>
+    <div class="timeline">
+  <div class="container1 left1">
+    <div class="content1">
+      <h2>Day 1: Rishikesh to Gangotri</h2>
+      <ul>
+        <li><strong>5:00 AM:</strong> Depart from Rishikesh.</li>
+        <li><strong>Breakfast:</strong> Stop in Uttarkashi or at a roadside dhaba.</li>
+        <li><strong>Noon:</strong> Arrive in Gangotri, check in, and have lunch.</li>
+        <li><strong>Post-Lunch: </strong>Visit Gangotri Temple for prayers and explore the Bhagirathi River area.</li>
+        <li><strong>Evening</strong> Dinner and overnight stay.</li>
+        
+      </ul>
+    </div>
+  </div>
+  <div class="container1 right1">
+    <div class="content1">
+      <h2>Day 2: Gangotri to Rishikesh</h2>
+      <ul>
+        <li><strong>Morning:</strong> Attend the morning Aarti (optional) and have breakfast.</li>
+        <li><strong>Noon:  </strong>Begin the return journey to Rishikesh.</li>
+        <li><strong>Lunch: </strong>Stop in Uttarkashi for lunch.</li>
+        <li><strong>Evening:</strong>Arrive in Rishikesh.</li>
+        
+      </ul>
+    </div>
+  </div>
+  
+  </div>
+  <div style={{display:'flex',justifyContent:'center'}} className='bg-warning'>
+  <h2>Tips: </h2>
+  <ul style={{display:'flex', gap:'2em',paddingTop:'.5em'}}>
+     <li><strong>Check weather conditions.</strong></li>
+     <li><strong>Pre-book accommodation.</strong></li>
+     <li><strong>Carry essentials like warm clothing and snacks.</strong></li>
  </ul>
  
  
