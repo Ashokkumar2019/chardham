@@ -106,7 +106,7 @@ console.log(place);
         <li><strong>Breakfast:</strong> Stop in Uttarkashi or at a roadside dhaba.</li>
         <li><strong>Noon:</strong> Arrive in Gangotri, check in, and have lunch.</li>
         <li><strong>Post-Lunch: </strong>Visit Gangotri Temple for prayers and explore the Bhagirathi River area.</li>
-        <li><strong>Evening</strong> Dinner and overnight stay.</li>
+        <li><strong>Evening:</strong> Dinner and overnight stay.</li>
         
       </ul>
     </div>
@@ -131,6 +131,49 @@ console.log(place);
      <li><strong>Check weather conditions.</strong></li>
      <li><strong>Pre-book accommodation.</strong></li>
      <li><strong>Carry essentials like warm clothing and snacks.</strong></li>
+ </ul>
+ 
+ 
+   </div>
+   </div>}
+
+
+   {/* yamunotri itenary */}
+{place==='YI'&&<div name='badrinath'>
+    <div class="timeline">
+  <div class="container1 left1">
+    <div class="content1">
+      <h2>Day 1: Rishikesh to Yamunotri</h2>
+      <ul>
+        <li><strong>6:00 AM:</strong> Depart from Rishikesh, have breakfast en route.</li>
+        <li><strong>Noon:</strong> Arrive at Janki Chatti, check into your accommodation, and have lunch.</li>
+        <li><strong>Noon:</strong> Arrive in Gangotri, check in, and have lunch.</li>
+        <li><strong>Post-Lunch: </strong>Begin the 6 km trek to Yamunotri (3-4 hours).</li>
+        <li><strong>Evening:</strong>Visit Yamunotri Temple, return to Janki Chatti for dinner and rest.</li>
+        
+      </ul>
+    </div>
+  </div>
+  <div class="container1 right1">
+    <div class="content1">
+      <h2>Day 2: Yamunotri to Rishikesh</h2>
+      <ul>
+        <li><strong>Morning:</strong> Breakfast and optional second visit to Yamunotri or nearby hot springs.</li>
+        <li><strong>Late Morning: </strong>Trek back to Janki Chatti.</li>
+        <li><strong>Afternoon: </strong>Lunch at Janki Chatti and start the drive back to Rishikesh.</li>
+        <li><strong>Evening:</strong>Arrive in Rishikesh.</li>
+        
+      </ul>
+    </div>
+  </div>
+  
+  </div>
+  <div style={{display:'flex',justifyContent:'center'}} className='bg-warning'>
+  <h2>Tips: </h2>
+  <ul style={{display:'flex', gap:'2em',paddingTop:'.5em'}}>
+     <li><strong>Pre-book accommodations.</strong></li>
+     <li><strong>Wear trekking shoes and carry warm clothing.</strong></li>
+     <li><strong>Be prepared for altitude and weather changes.</strong></li>
  </ul>
  
  
