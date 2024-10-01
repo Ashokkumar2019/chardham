@@ -1,12 +1,13 @@
 import React from 'react'
 import data from './jsondata/Visit.json'
 import { Container, Row, Col, Card, Button, Placeholder } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export default function Lastvisit() {
   return (
     <div>
-    <h2 className='text-center my-5'> top selling packages</h2>
-      <h2 className='text-center my-5'>Do Dham packages</h2> 
+    <h2 className='text-center my-5'> Top Selling packages</h2>
+       
     <Container>
     <Row>
       {data.map((item, index) => (
@@ -18,7 +19,7 @@ export default function Lastvisit() {
               <Card.Title>{item.title}</Card.Title>
               <Card.Title className='fw-bold text-danger' >{item.price}</Card.Title>
               <Card.Text>{item.description}</Card.Text>
-              {/* <Button variant="primary" href={item.url}>Learn More</Button> */}
+              <Link to={`/Itenary/${item.Params}`}><Button variant="primary"  >More Information</Button></Link>
             </Card.Body>
           </Card>
         </Col>

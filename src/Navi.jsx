@@ -17,7 +17,7 @@ export default function Navi() {
     <div className="navbars">
         <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
-      <img src="./logo.png" alt="" className="m_logo" />
+      <img src="./Logo.jpg" alt="" className="m_logo" />
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

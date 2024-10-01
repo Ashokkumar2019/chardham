@@ -9,6 +9,8 @@ import Badrinath from './Badrinath';
 import Kedarnath from './Kedarnath';
 import Gangotri from './Gangotri';
 import Yamunotri from './Yamunotri';
+import DoDham from './DoDham';
+import Itenary from './Itenary';
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
           <Route path="/Gangotri" element={<Gangotri/>} />
           <Route path="/Yamunotri" element={<Yamunotri/>} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/DoDham" element={<DoDham />} />
+          <Route path="/Itenary/:place" element={<Itenary />} />
         </Routes>
       </div> 
     </Router>
