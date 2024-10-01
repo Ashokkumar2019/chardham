@@ -14,7 +14,7 @@ export default function Subscribe() {
    
    <i className="fa fa-plane" style={{ fontSize: '1em',  color: '#f7786b' }}></i> 
 <Link to='/DoDham'>Exciting Offers </Link>
-
+<img src="./offeres.png" alt="" style={{width:'5em'}} />
    </h2>
         </Col>
         </Row>
