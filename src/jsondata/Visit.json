@@ -21,7 +21,7 @@
       "Params": "GI"
     },
     {
-      "title": "Do dham  Kedarnath Badrinath  from Rishikesh ",
+      "title": "Do dham  Kedarnath Badrinath  from Rishikesh",
       "price":"Rs.  9898/- PP",
       "description": "",
       "imagePath": "/cc3.jpg",
@@ -33,6 +33,13 @@
       "description": "",
       "imagePath": "/Yamunotri.jpg",
       "Params": "YI"
+    },
+    {
+      "title": "Phata to kedarnath Helicopter Tour",
+      "price":"Rs. 14599/- PP",
+      "description": "",
+      "imagePath": "/Kedarnath.jpg",
+      "Params": "PK"
     }
     
 ]

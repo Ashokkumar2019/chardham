@@ -179,6 +179,49 @@ console.log(place);
  
    </div>
    </div>}
+
+
+   {/* Phata and Kedarnath */}
+{place==='PK'&&<div name='badrinath'>
+    <div class="timeline">
+  <div class="container1 left1">
+    <div class="content1">
+      <h2>Day 1: Rishikesh to Phata and Kedarnath</h2>
+      <ul>
+        <li><strong>6:00 AM: </strong>Depart from Rishikesh, drive to Phata (5-6 hours).</li>
+        <li><strong>Noon:</strong> Arrive in Phata, check into a hotel.</li>
+        <li><strong>Lunch:</strong>  Enjoy lunch at your accommodation.</li>
+        <li><strong>Afternoon:  </strong>Helicopter ride to Kedarnath (10-15 minutes). Visit Kedarnath Temple and explore.</li>
+        <li><strong>Evening:</strong>Return by helicopter to Phata. Dinner and overnight stay.</li>
+        
+      </ul>
+    </div>
+  </div>
+  <div class="container1 right1">
+    <div class="content1">
+      <h2>Day 2: Phata to Rishikesh</h2>
+      <ul>
+        <li><strong>Morning:</strong> Breakfast at your hotel, explore Phata if time permits.</li>
+        <li><strong>Late Morning: </strong>Trek back to Janki Chatti.</li>
+        <li><strong>11:00 AM: </strong>Start your drive back to Rishikesh (5-6 hours).</li>
+        <li><strong>Late Afternoon: </strong>Arrive in Rishikesh.</li>
+        
+      </ul>
+    </div>
+  </div>
+  
+  </div>
+  <div style={{display:'flex',justifyContent:'center'}} className='bg-warning'>
+  <h2>Tips: </h2>
+  <ul style={{display:'flex', gap:'2em',paddingTop:'.5em'}}>
+     <li><strong>Book helicopter tickets in advance.</strong></li>
+     <li><strong>Check weather conditions.</strong></li>
+     <li><strong>Carry warm clothing and essentials.</strong></li>
+ </ul>
+ 
+ 
+   </div>
+   </div>}
    </>
   )
 }
