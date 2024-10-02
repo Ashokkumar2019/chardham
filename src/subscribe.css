@@ -1,0 +1,14 @@
+.html_bg{
+    animation: blink 3.5s infinite;
+    
+  }
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .html_bg{
+        display: none;
+    }
+  }

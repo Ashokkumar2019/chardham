@@ -124,4 +124,13 @@
     .right1 {
     left: 0%;
     }
+    .tips_item{
+flex-direction: column;
+
+    }
+    
+    .tips_container{
+        flex-direction: column;
+        gap: 1em;
+    }
   }

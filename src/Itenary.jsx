@@ -9,7 +9,7 @@ console.log(place);
   return (
     <>
     {place==='Bh'&&
-    <div name='badrinath'>
+    <div >
     <div class="timeline">
   <div class="container1 left1">
     <div class="content1">
@@ -36,9 +36,9 @@ console.log(place);
   </div>
   
   </div>
-  <div style={{display:'flex',justifyContent:'center'}} className='bg-warning'>
+  <div style={{display:'flex',justifyContent:'center'}} className='bg-warning tips_container' >
   <h2>Tips: </h2>
-  <ul style={{display:'flex', gap:'2em',paddingTop:'.5em'}}>
+  <ul style={{display:'flex', gap:'2em',paddingTop:'.5em'}} className='tips_item'>
      <li><strong>Check weather.</strong></li>
      <li><strong>Book accommodations early.</strong></li>
      <li><strong>Pack warm clothing.</strong></li>
@@ -50,7 +50,7 @@ console.log(place);
 }
 
     {/* Kedarnath itenary */}
-{place==='Kh'&&<div name='badrinath'>
+{place==='Kh'&&<div >
     <div class="timeline">
   <div class="container1 left1">
     <div class="content1">
@@ -80,9 +80,11 @@ console.log(place);
   </div>
   
   </div>
-  <div style={{display:'flex',justifyContent:'center'}} className='bg-warning'>
+  <div style={{display:'flex',justifyContent:'center'}} className='bg-warning tips_container'>
   <h2>Tips: </h2>
-  <ul style={{display:'flex', gap:'2em',paddingTop:'.5em'}}>
+  <ul style={{display:'flex', gap:'2em',paddingTop:'.5em'}}
+  className='tips_item'
+  >
      <li><strong>Check weather and road conditions.</strong></li>
      <li><strong>Pre-book accommodation.</strong></li>
      <li><strong>Wear comfortable trekking shoes.</strong></li>
@@ -96,7 +98,7 @@ console.log(place);
 
 
    {/* Gangotri itenary */}
-{place==='GI'&&<div name='badrinath'>
+{place==='GI'&&<div >
     <div class="timeline">
   <div class="container1 left1">
     <div class="content1">
@@ -125,9 +127,10 @@ console.log(place);
   </div>
   
   </div>
-  <div style={{display:'flex',justifyContent:'center'}} className='bg-warning'>
+  <div style={{display:'flex',justifyContent:'center'}} className='bg-warning tips_container'>
   <h2>Tips: </h2>
-  <ul style={{display:'flex', gap:'2em',paddingTop:'.5em'}}>
+  <ul style={{display:'flex', gap:'2em',paddingTop:'.5em'}}
+  className='tips_item'>
      <li><strong>Check weather conditions.</strong></li>
      <li><strong>Pre-book accommodation.</strong></li>
      <li><strong>Carry essentials like warm clothing and snacks.</strong></li>
@@ -139,7 +142,7 @@ console.log(place);
 
 
    {/* yamunotri itenary */}
-{place==='YI'&&<div name='badrinath'>
+{place==='YI'&&<div >
     <div class="timeline">
   <div class="container1 left1">
     <div class="content1">
@@ -168,9 +171,10 @@ console.log(place);
   </div>
   
   </div>
-  <div style={{display:'flex',justifyContent:'center'}} className='bg-warning'>
+  <div style={{display:'flex',justifyContent:'center'}} className='bg-warning tips_container'>
   <h2>Tips: </h2>
-  <ul style={{display:'flex', gap:'2em',paddingTop:'.5em'}}>
+  <ul style={{display:'flex', gap:'2em',paddingTop:'.5em'}}
+  className='tips_item'>
      <li><strong>Pre-book accommodations.</strong></li>
      <li><strong>Wear trekking shoes and carry warm clothing.</strong></li>
      <li><strong>Be prepared for altitude and weather changes.</strong></li>
@@ -182,7 +186,7 @@ console.log(place);
 
 
    {/* Phata and Kedarnath */}
-{place==='PK'&&<div name='badrinath'>
+{place==='PK'&&<div >
     <div class="timeline">
   <div class="container1 left1">
     <div class="content1">
@@ -211,12 +215,86 @@ console.log(place);
   </div>
   
   </div>
-  <div style={{display:'flex',justifyContent:'center'}} className='bg-warning'>
+  <div style={{display:'flex',justifyContent:'center'}} className='bg-warning tips_container'>
   <h2>Tips: </h2>
-  <ul style={{display:'flex', gap:'2em',paddingTop:'.5em'}}>
+  <ul style={{display:'flex', gap:'2em',paddingTop:'.5em'}} className='tips_item'>
      <li><strong>Book helicopter tickets in advance.</strong></li>
      <li><strong>Check weather conditions.</strong></li>
      <li><strong>Carry warm clothing and essentials.</strong></li>
+ </ul>
+ 
+ 
+   </div>
+   </div>}
+{ /*char dham helicopter*/ }
+{place==='CD'&&<div >
+    <div class="timeline">
+  <div class="container1 left1">
+    <div class="content1">
+      <h2>Day 1: Arrival in Dehradun</h2>
+      <ul>
+        <li><strong>Morning:</strong>Arrive in Dehradun, transfer to hotel.</li>
+        <li><strong>Evening:</strong> Briefing session, dinner, and rest.</li>
+        
+      </ul>
+    </div>
+  </div>
+  <div class="container1 right1">
+    <div class="content1">
+      <h2>Day 2: Dehradun to Yamunotri</h2>
+      <ul>
+        <li><strong>Early Morning: </strong>Helicopter to Yamunotri (1-hour flight).</li>
+        <li><strong>Late Morning: </strong>Trek 6 km to Yamunotri Temple, prayers.</li>
+        <li><strong>Afternoon: </strong>Lunch and return to Kharsali.</li>
+        <li><strong>Evening:  </strong>Fly back to Dehradun.</li>
+        
+      </ul>
+    </div>
+  </div>
+  
+  <div class="container1 left1">
+    <div class="content1">
+      <h2>Day 3: Dehradun to Gangotri</h2>
+      <ul>
+        <li><strong>Early Morning: </strong>Helicopter to Gangotri.</li>
+        <li><strong>Morning: </strong> Visit Gangotri Temple, prayers.</li>
+        <li><strong>Afternoon:  </strong>  Lunch and return to Dehradun.</li>
+        
+      </ul>
+    </div>
+  </div>
+  <div class="container1 right1">
+    <div class="content1">
+      <h2>Day 4: Dehradun to Kedarnath</h2>
+      <ul>
+        <li><strong>Early Morning:  </strong>Helicopter to Kedarnath.</li>
+        <li><strong>Morning: </strong>TVisit Kedarnath Temple.</li>
+        <li><strong>Afternoon: </strong> Lunch and return to Dehradun.</li>
+       
+        
+      </ul>
+    </div>
+  </div>
+  <div class="container1 left1">
+    <div class="content1">
+      <h2>Day 5: Dehradun to Badrinath</h2>
+      <ul>
+        <li><strong>Early Morning: </strong>Helicopter to Badrinath.</li>
+        <li><strong>Morning: </strong> Visit Badrinath Temple, Tapt Kund.</li>
+        <li><strong>Afternoon:  </strong> Lunch and return to Dehradun.</li>
+        <li><strong>Evening:   </strong> Depart or stay overnight.</li>
+      </ul>
+    </div>
+  </div>
+
+
+  </div>
+  <div style={{display:'flex',justifyContent:'center'}} className='bg-warning tips_container'>
+  <h2>Tips: </h2>
+  <ul style={{display:'flex', gap:'2em',paddingTop:'.5em'}} className='tips_item'>
+     <li><strong>Book in advance.</strong></li>
+     <li><strong>Be prepared for weather changes.</strong></li>
+     <li><strong>Carry necessary medications.</strong></li>
  </ul>
  
  
