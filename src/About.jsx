@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 // import Lastvisit from './Lastvisit';
-// import Footers from './Footers';
+import Footers from './Footers';
 // import Blogs from './Blogs';
 export default function About() {
   return (
@@ -74,6 +74,9 @@ export default function About() {
  
             
   </div>
+  <div className="footersection">
+      <Footers/>
+    </div> 
   {/* <div className="blog">
       <Blogs/>
     </div>

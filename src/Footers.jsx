@@ -6,12 +6,13 @@ export default function Footers() {
     <div className="footerse">
         <Container>
             <Row>
-                <Col md={3} sm={12}>
-                <h3> <span><img src="./logo.png" alt="" className="m_logo" /></span> 
-                चार धाम</h3>
-                <p>123, Connaught Place,<br /> New Delhi, Delhi 110001,<br /> India</p>
+                <Col md={12} sm={12}>
+                 
+                 <h3>
+                Sewa samiti [जीवन का एक अनोखा अनुभव]</h3>
+                <address></address>
                 </Col>
-                <Col md={3} sm={12}>
+                {/* <Col md={3} sm={12}>
                 <h3>Company</h3>
                 <ul>
                     <li href="#">link</li>
@@ -21,8 +22,8 @@ export default function Footers() {
                     <li href="#">link</li>
                     
                 </ul>
-                </Col>
-                <Col md={3} sm={12}>
+                </Col> */}
+                {/* <Col md={3} sm={12}>
                 <h3>Popular destination</h3>
                 <ul class="two_col">
                 <li href="#">link</li>
@@ -37,8 +38,8 @@ export default function Footers() {
                     <li href="#">link</li>
                    
                 </ul>
-                </Col>
-                <Col md={3} sm={12}>
+                </Col> */}
+                {/* <Col md={3} sm={12}>
                 <h3>Instagram</h3>
                 <div className="footerimg">
                     <img src="./src/assets/card/cc1.jpg" alt="" />
@@ -48,7 +49,7 @@ export default function Footers() {
                     <img src="./src/assets/card/cc5.jpg" alt="" />
                     <img src="./src/assets/card/cc6.jpg" alt="" />
                 </div>
-                </Col>
+                </Col> */}
             </Row>
         </Container>
     </div>

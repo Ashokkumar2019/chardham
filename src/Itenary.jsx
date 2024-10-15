@@ -1,18 +1,27 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './Itenary.css'
 import { useParams } from 'react-router-dom'
+import { Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 export default function Itenary() {
 const {place}=useParams();
 console.log(place);
-
+let navigate=useNavigate();
+useEffect(() => {
+  
+  window.scrollTo(0, 0);
+}, []);
 
   return (
     <>
+    <div style={{display:'flex',justifyContent:'flex-end',marginTop:'2vh'}}>
+    <Button variant="link"  onClick={()=>navigate('/')}  >Back</Button>
+    </div>
     {place==='Bh'&&
     <div >
-    <div class="timeline">
-  <div class="container1 left1">
-    <div class="content1">
+    <div className="timeline">
+  <div className="container1 left1">
+    <div className="content1">
       <h2>Day 1: Rishikesh to Badrinath</h2>
       <ul>
         <li><strong>5:00 AM:</strong> Early departure from Rishikesh (300 km, 8-10 hours).</li>
@@ -23,8 +32,8 @@ console.log(place);
       </ul>
     </div>
   </div>
-  <div class="container1 right1">
-    <div class="content1">
+  <div className="container1 right1">
+    <div className="content1">
       <h2>Day 2: Explore Badrinath & Return to Rishikesh</h2>
       <ul>
         <li><strong>Early Morning:</strong> Attend morning Aarti (4:30 AM).</li>
@@ -38,7 +47,7 @@ console.log(place);
   </div>
   <div style={{display:'flex',justifyContent:'center'}} className='bg-warning tips_container' >
   <h2>Tips: </h2>
-  <ul style={{display:'flex', gap:'2em',paddingTop:'.5em'}} className='tips_item'>
+  <ul style={{display:'flex', gap:'2em',paddingTop:'.5em',}} className='tips_item'>
      <li><strong>Check weather.</strong></li>
      <li><strong>Book accommodations early.</strong></li>
      <li><strong>Pack warm clothing.</strong></li>
@@ -300,6 +309,7 @@ console.log(place);
  
    </div>
    </div>}
+  
    </>
   )
 }

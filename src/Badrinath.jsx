@@ -27,47 +27,47 @@ export default function Badrinath() {
       <Container>
         <Row>
           <Col>
-          <h1>बद्रीनाथ का विवरण</h1>
+          <h1>Description of Badrinath </h1>
           <section>
-            <h2>स्थान</h2>
-            <p><strong>जिला:</strong> चमोली, उत्तराखंड</p>
-            <p><strong>ऊँचाई:</strong> लगभग 3,133 मीटर (10,279 फीट) समुद्रतल से</p>
+            <h2>Location</h2>
+            <p><strong>District:</strong> Chamoli, Uttarakhand</p>
+            <p><strong>Altitude:</strong> Approximately 3,133 meters (10,279 feet) above sea level</p>
         </section>
 
         <section>
-            <h2>धार्मिक महत्व</h2>
-            <p><strong>मुख्य देवता:</strong> भगवान विष्णु</p>
-            <p><strong>मंदिर:</strong> बद्रीनाथ मंदिर, जो भगवान विष्णु की पूजा के लिए प्रसिद्ध है। मंदिर में भगवान विष्णु की एक भव्य मूर्ति है, जिसे "बद्री नाथ" के नाम से जाना जाता है। यह मंदिर सर्दियों में बंद रहता है और गर्मियों में खुलता है।</p>
+            <h2>Religious Significance</h2>
+            <p><strong>Main Deity:</strong> Lord Vishnu</p>
+            <p><strong>Temple:</strong> The Badrinath Temple, which is renowned for the worship of Lord Vishnu. The temple houses a grand statue of Lord Vishnu, known as "Badri Nath". This temple remains closed during winter and opens in the summer months.</p>
         </section>
 
         <section>
-            <h2>इतिहास और पौराणिक कथा</h2>
-            <p><strong>पौराणिक कथा:</strong> पौराणिक कथाओं के अनुसार, भगवान विष्णु यहाँ तपस्या करने के लिए आए थे। यहाँ स्थित "नारायण पर्वत" और "बद्री वन" इन कथाओं के महत्वपूर्ण हिस्से हैं।</p>
-            <p><strong>इतिहास:</strong> बद्रीनाथ मंदिर की स्थापना पहले ब्रह्मा और विष्णु के दर्शन के लिए की गई थी। यह स्थल पुरातन काल से ही तीर्थयात्रियों के लिए एक पवित्र स्थल रहा है।</p>
+            <h2>History and Mythology</h2>
+            <p><strong>Mythology:</strong> According to ancient legends, Lord Vishnu came here to meditate. The "Narayan Parvat" (Narayan Mountain) and "Badri Van" (Badri Forest) hold significant importance in these stories.</p>
+            <p><strong>History:</strong> The Badrinath Temple was initially established for the worship of Brahma and Vishnu. This site has been considered a sacred place for pilgrims since ancient times.</p>
         </section>
 
         <section>
-            <h2>मुख्य आकर्षण</h2>
+            <h2>Main Attractions</h2>
             <ul>
-                <li><strong>बद्रीनाथ मंदिर:</strong> यह मंदिर उत्तराखंड के सबसे महत्वपूर्ण तीर्थ स्थलों में से एक है। इसे 6वीं शताब्दी के आसपास स्थापित माना जाता है। मंदिर की वास्तुकला में गढ़वाल शैली की झलक देखने को मिलती है।</li>
-                <li><strong>तप्तकुण्ड:</strong> बद्रीनाथ मंदिर के निकट स्थित गर्म पानी के स्रोत। तीर्थयात्री यहाँ स्नान करने के लिए आते हैं क्योंकि मान्यता है कि इसके पानी में स्नान करने से सभी पाप समाप्त हो जाते हैं।</li>
-                <li><strong>नारद कुंड और ब्रह्मकुंड:</strong> ये कुंड भी पवित्र माने जाते हैं और मंदिर के पास स्थित हैं। इनका धार्मिक महत्व है और तीर्थयात्री यहाँ पवित्र स्नान के लिए आते हैं।</li>
-                <li><strong>श्रीनाथ मंदिर:</strong> यह मंदिर बद्रीनाथ मंदिर के पास स्थित है और भगवान विष्णु के अवतार "श्रीनाथ" को समर्पित है।</li>
+                <li><strong>Badrinath Temple:</strong> This temple is one of the most important pilgrimage sites in Uttarakhand and is believed to have been established around the 6th century. The architecture of the temple reflects the Garhwal style.</li>
+                <li><strong>Tapt Kund:</strong> A hot water spring located near the Badrinath Temple. Pilgrims come here to bathe, as it is believed that bathing in its waters absolves all sins.</li>
+                <li><strong>Narad Kund and Brahma Kund:</strong> These are also sacred ponds located near the temple and hold great religious significance. Pilgrims visit them for holy baths.</li>
+                <li><strong>Shreenath Temple:</strong> Situated near the Badrinath Temple, this temple is dedicated to "Shreenath", an avatar of Lord Vishnu.</li>
             </ul>
         </section>
 
         <section>
-            <h2>यात्रा और मौसम</h2>
-            <p><strong>यात्रा का समय:</strong> आमतौर पर अप्रैल से नवंबर तक यात्रा की जाती है। सर्दियों में अत्यधिक बर्फबारी के कारण मंदिर बंद रहता है।</p>
-            <p><strong>मौसम:</strong> गर्मियों में (मई से अक्टूबर) मौसम सुखद रहता है, जबकि सर्दियों में (नवंबर से मार्च) यहाँ बहुत ठंड होती है और बर्फबारी हो सकती है।</p>
+            <h2>Travel and Weather</h2>
+            <p><strong>Best Time to Visit:</strong> Generally, the pilgrimage is undertaken between April and November. The temple remains closed during winter due to heavy snowfall.</p>
+            <p><strong>Weather:</strong> During the summer (May to October), the weather is pleasant, while in winter (November to March), it becomes extremely cold with possible snowfall.</p>
         </section>
 
         <section class="important">
-            <h2>यात्रा सुझाव</h2>
+            <h2>Travel Tips</h2>
             <ul>
-                <li><strong>शारीरिक तैयारी:</strong> उच्च ऊंचाई पर स्थित होने के कारण, यात्रा से पहले शारीरिक तैयारी और उचित वस्त्र पहनना आवश्यक है।</li>
-                <li><strong>आराम:</strong> यात्रा के दौरान उचित आराम और पानी का सेवन करना आवश्यक है।</li>
-                <li><strong>परिवहन:</strong> यात्रा के लिए अच्छी तरह से सुसज्जित गाड़ियों और यात्रा एजेंसियों की मदद लेना फायदेमंद होता है।</li>
+                <li><strong>Physical Preparation:</strong> Since Badrinath is located at a high altitude, physical preparation and wearing appropriate clothing is essential before the journey.</li>
+                <li><strong>Rest:</strong>It is important to take adequate rest and stay hydrated during the journey.</li>
+                <li><strong>Transportation:</strong> It is advisable to use well-equipped vehicles and seek assistance from reliable travel agencies for the trip.</li>
             </ul>
         </section>
           
@@ -76,12 +76,12 @@ export default function Badrinath() {
         </Row>
       </Container>
 
-      <div className="blog">
+      {/* <div className="blog">
       <Blogs/>
     </div>
     <div className="recenttrip py-5">
     <Lastvisit/>
-    </div>
+    </div> */}
     <div className="footersection">
       <Footers/>
     </div>

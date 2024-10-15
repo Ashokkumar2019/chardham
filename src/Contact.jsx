@@ -7,20 +7,22 @@ import Blogs from './Blogs';
 
 export default function Contact() {
   return (
-    <div className='chardham'>
-      <img src="./src/assets/yamunotri-4.jpg" alt="Yamunotri" className='w-100' />
-      <h1>संपर्क पृष्ठ</h1>
-      <Container>
+    <div >
+     
+     
+      <Container className='min-vh-100'>
         <Row>
           <Col md={6} sm={12}>
             <section className="contact-info">
-              <h2>संपर्क जानकारी</h2>
+               <h1 style={{ 
+  fontWeight: 500,
+  fontSize: '1.5rem'}}>Let's get in touch</h1>
               <p><strong>पता:</strong> 1234, पृष्ठ नाम, शहर, राज्य, पिनकोड, देश</p>
               <p><strong>फोन:</strong> +91 123 456 7890</p>
               <p><strong>ईमेल:</strong> example@example.com</p>
             </section>
           </Col>
-          <Col md={6} sm={12}>
+          {/* <Col md={6} sm={12}>
             <section className="map">
               <h2>हमारा स्थान</h2>
               <iframe 
@@ -31,39 +33,10 @@ export default function Contact() {
                 className="w-100"
               ></iframe>
             </section>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <section className="contact-form">
-              <h2>संपर्क फ़ॉर्म</h2>
-              <form action="#" method="post">
-                <p>
-                  <label htmlFor="name">नाम:</label>
-                  <input type="text" id="name" name="name" required />
-                </p>
-                <p>
-                  <label htmlFor="email">ईमेल:</label>
-                  <input type="email" id="email" name="email" required />
-                </p>
-                <p>
-                  <label htmlFor="message">संदेश:</label>
-                  <textarea id="message" name="message" rows="5" required></textarea>
-                </p>
-                <p>
-                  <button className='btn' type="submit">भेजें</button>
-                </p>
-              </form>
-            </section>
-          </Col>
-        </Row>
+          </Col> */}
+       </Row>
       </Container>
-      <div className="blog">
-        <Blogs />
-      </div>
-      <div className="recenttrip py-5">
-        <Lastvisit />
-      </div>
+     
       <div className="footersection">
         <Footers />
       </div>

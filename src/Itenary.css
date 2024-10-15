@@ -127,10 +127,17 @@
     .tips_item{
 flex-direction: column;
 
+
+
+    }
+    .tips_item li{
+      line-height: 1em;
+    
     }
     
     .tips_container{
         flex-direction: column;
-        gap: 1em;
+        
+       
     }
   }
