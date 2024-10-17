@@ -11,7 +11,7 @@ export default function Lastvisit() {
     <Container>
     <Row>
       {data.map((item, index) => (
-        <Col key={index} md={3} sm={6} className="mb-4">
+        <Col key={index} md={4} sm={6} className="mb-4">
           <Card className="h-100 d-flex flex-column">
             
             <Card.Img variant="top" src={item.imagePath} alt={item.title} />
