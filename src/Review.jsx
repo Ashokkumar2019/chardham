@@ -11,7 +11,7 @@ export default function Review() {
        
         <Carousel.Caption className='blogclass'>
         
-          <p style={{width:'50vw',margin:'auto'}}>{item.msg}</p>
+          <p style={{width:'50vw',margin:'auto',textAlign:'justify',textJustify:'inter-word'}}>{item.msg}</p>
           <p style={{fontWeight:700}}>{item.reviewBy}</p>
          
         </Carousel.Caption>
