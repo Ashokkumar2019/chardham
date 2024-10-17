@@ -11,16 +11,7 @@ export default function Badrinath() {
     <div className='chardham'>
       <div>
   <Ratio aspectRatio="16x9">
-    <video
-      src="./src/assets/Basrinath-s.mp4"
-      controls
-      width="100%"
-      height="100%"
-      autoPlay={true}
-      muted={true}
-    >
-     
-    </video>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FgoYa4I23_Y?si=s5haSUt2F1UEUf4D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </Ratio>
 </div>
       <br />

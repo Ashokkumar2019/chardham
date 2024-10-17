@@ -10,7 +10,7 @@ export default function Subscribe() {
     <Row className='align-items-center d-flex justify-content-between bg-warning'>
     
         <Col sm={9} xs={9} >
-        <h2 className='text-center ' style={{marginTop:'5vh',color:'#4B6F44'}}>Char Dham Kedarnath-Badrinath Helicopter Tour
+        <h2 className='text-center ' style={{marginTop:'5vh',color:'#4B6F44'}}>Kedarnath-Badrinath Helicopter Tour
    
    <i className="fa fa-plane" style={{ fontSize: '1em',  color: '#f7786b' }}></i> 
    

@@ -159,7 +159,7 @@ useEffect(() => {
       <ul>
         <li><strong>6:00 AM:</strong> Depart from Rishikesh, have breakfast en route.</li>
         <li><strong>Noon:</strong> Arrive at Janki Chatti, check into your accommodation, and have lunch.</li>
-        <li><strong>Noon:</strong> Arrive in Gangotri, check in, and have lunch.</li>
+        {/* <li><strong>Noon:</strong> Arrive in Gangotri, check in, and have lunch.</li> */}
         <li><strong>Post-Lunch: </strong>Begin the 6 km trek to Yamunotri (3-4 hours).</li>
         <li><strong>Evening:</strong>Visit Yamunotri Temple, return to Janki Chatti for dinner and rest.</li>
         
@@ -215,7 +215,7 @@ useEffect(() => {
       <h2>Day 2: Phata to Rishikesh</h2>
       <ul>
         <li><strong>Morning:</strong> Breakfast at your hotel, explore Phata if time permits.</li>
-        <li><strong>Late Morning: </strong>Trek back to Janki Chatti.</li>
+        {/* <li><strong>Late Morning: </strong>Trek back to Janki Chatti.</li> */}
         <li><strong>11:00 AM: </strong>Start your drive back to Rishikesh (5-6 hours).</li>
         <li><strong>Late Afternoon: </strong>Arrive in Rishikesh.</li>
         

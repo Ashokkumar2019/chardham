@@ -50,7 +50,7 @@ export default function Navi() {
           <Nav>
             <Nav.Link href="#"> 
             <i className="fas fa-phone" style={{ fontSize: '1em', color: '#aeabab' }}></i>
-            <span style={{ fontSize: '1em', color: '#aeabab' }}>+91 9997336127</span>
+            <span style={{ fontSize: '1em', color: '#aeabab' }}>+91 70602 31050</span>
             </Nav.Link>
             {/* <Nav.Link eventKey={2} href="#memes">
             <i className="fab fa-instagram" style={{ fontSize: '1em', color: '#aeabab' }}></i>

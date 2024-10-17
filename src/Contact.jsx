@@ -11,15 +11,19 @@ export default function Contact() {
      
      
       <Container className='min-vh-100'>
-        <Row>
+        <Row className="justify-content-center align-items-center  mt-5">
           <Col md={6} sm={12}>
-            <section className="contact-info">
+            <section className="contact-info" >
                <h1 style={{ 
   fontWeight: 500,
-  fontSize: '1.5rem'}}>Let's get in touch</h1>
-              <p><strong>पता:</strong> 1234, पृष्ठ नाम, शहर, राज्य, पिनकोड, देश</p>
-              <p><strong>फोन:</strong> +91 123 456 7890</p>
-              <p><strong>ईमेल:</strong> example@example.com</p>
+  
+  fontSize: '1.5rem'}} className='text-info fs-1'>Let's get in touch</h1>
+  <address className='mt-5'>
+              <p><strong>address:</strong>
+              17, Rajpur Rd, behind ICICI Bank, opp. Gandhi Park, Main Gate, Dehradun, Uttarakhand 248001</p>
+              <p><strong>contact:</strong> +91 70602 31050</p>
+              <p><strong>email:</strong>sewa.samiti48@gmail.com</p>
+              </address>
             </section>
           </Col>
           {/* <Col md={6} sm={12}>

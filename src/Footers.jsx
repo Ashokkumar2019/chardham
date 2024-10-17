@@ -5,13 +5,23 @@ export default function Footers() {
   return (
     <div className="footerse">
         <Container>
-            <Row>
-                <Col md={12} sm={12}>
-                 
-                 <h3>
-                Sewa samiti [जीवन का एक अनोखा अनुभव]</h3>
-                <address></address>
+            <Row className=''>
+                <Col md={4} sm={12}>
+                
+                <address>
+                 <h3 style={{lineHeight:'20px'}}>
+                Sewa samiti </h3>
+                <p>[जीवन का एक अनोखा अनुभव]</p>
+                
+                </address>
                 </Col>
+               <Col md={4} sm={12}>
+               <p>Rajpur Rd, behind ICICI Bank, opp. Gandhi Park, Main Gate, Dehradun, Uttarakhand 248001</p>
+               </Col>
+               <Col md={4} sm={12} >
+               <p style={{lineHeight:'8px'}}>70602 31050</p>
+               <p>sewa.samiti48@gmail.com</p>
+               </Col>
                 {/* <Col md={3} sm={12}>
                 <h3>Company</h3>
                 <ul>
