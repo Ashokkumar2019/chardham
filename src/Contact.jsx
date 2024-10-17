@@ -3,8 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Lastvisit from './Lastvisit';
 import Footers from './Footers';
 import Blogs from './Blogs';
-
-
+import { FaSquarePhone } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 export default function Contact() {
   return (
     <div >
@@ -19,10 +19,10 @@ export default function Contact() {
   
   fontSize: '1.5rem'}} className='text-info fs-1'>Let's get in touch</h1>
   <address className='mt-5'>
-              <p><strong>address:</strong>
+              <p><strong>Address:&nbsp;</strong>
               17, Rajpur Rd, behind ICICI Bank, opp. Gandhi Park, Main Gate, Dehradun, Uttarakhand 248001</p>
-              <p><strong>contact:</strong> +91 70602 31050</p>
-              <p><strong>email:</strong>sewa.samiti48@gmail.com</p>
+              <p><strong><FaSquarePhone style={{fontSize:'20px'}}/></strong>&nbsp;&nbsp; +91 70602 31050</p>
+              <p><strong><MdEmail  style={{fontSize:'20px'}} />&nbsp; &nbsp;</strong>sewa.samiti48@gmail.com</p>
               </address>
             </section>
           </Col>

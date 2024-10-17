@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-
+import { FaSquarePhone } from "react-icons/fa6";
+import { MdOutlineMailOutline } from "react-icons/md";
 export default function Footers() {
   return (
     <div className="footerse">
@@ -10,7 +11,7 @@ export default function Footers() {
                 
                 <address>
                  <h3 style={{lineHeight:'20px'}}>
-                Sewa samiti </h3>
+                Bharat Sewa samiti </h3>
                 <p>[जीवन का एक अनोखा अनुभव]</p>
                 
                 </address>
@@ -18,8 +19,13 @@ export default function Footers() {
                <Col md={4} sm={12}>
                <p>Rajpur Rd, behind ICICI Bank, opp. Gandhi Park, Main Gate, Dehradun, Uttarakhand 248001</p>
                </Col>
-               <Col md={4} sm={12}  style={{display:'flex',justifyContent:'flex-end'}}>
-               <p style={{lineHeight:'8px'}}>70602 31050 sewa.samiti48@gmail.com</p>
+               <Col md={4} sm={12}  style={{display:'flex',justifyContent:'flex-end',}}>
+               <ul>
+                <li><FaSquarePhone style={{fontSize:'20px'}}/>&nbsp;70602 31050 </li>
+                <li><MdOutlineMailOutline style={{fontSize:'20px'}} />&nbsp;sewa.samiti48@gmail.com</li>
+               </ul>
+               
+              <p></p>   
                </Col>
                 {/* <Col md={3} sm={12}>
                 <h3>Company</h3>
