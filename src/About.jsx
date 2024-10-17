@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 // import Lastvisit from './Lastvisit';
 import Footers from './Footers';
-import Review from './review';
+import Review from './Review.jsx';
 // import Blogs from './Blogs';
 
 export default function About() {
