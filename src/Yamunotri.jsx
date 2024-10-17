@@ -12,7 +12,7 @@ export default function Yamunotri() {
      <div>
   <Ratio aspectRatio="16x9">
     <video
-      src="./src/assets/Basrinath-s.mp4"
+      src="./3.mp4"
       controls
       width="100%"
       height="100%"

@@ -12,7 +12,7 @@ export default function Kedarnath() {
         <div>
   <Ratio aspectRatio="16x9">
     <video
-      src="./src/assets/Basrinath-s.mp4"
+      src="/2.mp4"
       controls
       width="100%"
       height="100%"

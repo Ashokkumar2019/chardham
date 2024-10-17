@@ -18,9 +18,8 @@ export default function Footers() {
                <Col md={4} sm={12}>
                <p>Rajpur Rd, behind ICICI Bank, opp. Gandhi Park, Main Gate, Dehradun, Uttarakhand 248001</p>
                </Col>
-               <Col md={4} sm={12} >
-               <p style={{lineHeight:'8px'}}>70602 31050</p>
-               <p>sewa.samiti48@gmail.com</p>
+               <Col md={4} sm={12}  style={{display:'flex',justifyContent:'flex-end'}}>
+               <p style={{lineHeight:'8px'}}>70602 31050 sewa.samiti48@gmail.com</p>
                </Col>
                 {/* <Col md={3} sm={12}>
                 <h3>Company</h3>
@@ -38,7 +37,8 @@ export default function Footers() {
                 <ul class="two_col">
                 <li href="#">link</li>
                     <li href="#">link</li>
-                    <li href="#">link</li>
+                    </p>
+               <p><li href="#">link</li>
                     <li href="#">link</li>
                     <li href="#">link</li>
                     <li href="#">link</li>
