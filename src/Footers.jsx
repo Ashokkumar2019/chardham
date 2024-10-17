@@ -17,9 +17,11 @@ export default function Footers() {
                 </address>
                 </Col>
                <Col md={4} sm={12}>
-               <p>Rajpur Rd, behind ICICI Bank, opp. Gandhi Park, Main Gate, Dehradun, Uttarakhand 248001</p>
+               <p>Address: &nbsp;
+               Rajpur Rd, behind ICICI Bank, opp. Gandhi Park, Main Gate, Dehradun, Uttarakhand 248001</p>
                </Col>
-               <Col md={4} sm={12}  style={{display:'flex',justifyContent:'flex-end',}}>
+               <Col md={4} sm={12}  style={{background:'red',
+              marginLeft:'-32px'}}>
                <ul>
                 <li><FaSquarePhone style={{fontSize:'20px'}}/>&nbsp;70602 31050 </li>
                 <li><MdOutlineMailOutline style={{fontSize:'20px'}} />&nbsp;sewa.samiti48@gmail.com</li>
