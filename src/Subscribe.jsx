@@ -5,10 +5,10 @@ import './subscribe.css';
 import { GiHelicopter } from "react-icons/gi";
 export default function Subscribe() {
   return (
-    <div className=''>
-    <Container >
+    <div >
+    <Container style={{backgroundImage:`url(/background_image.jpg)`,backgroundRepeat:'no-repeat',backgroundSize:'100% 100%'}}>
     
-    <Row className='align-items-center d-flex justify-content-between bg-warning'>
+    <Row className='align-items-center d-flex justify-content-between ' >
     
         <Col sm={9} xs={9} >
         <h2 className='text-center ' style={{marginTop:'5vh',color:'#4B6F44'}}>Kedarnath-Badrinath Helicopter Tour
