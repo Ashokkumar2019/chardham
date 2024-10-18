@@ -41,7 +41,7 @@ export default function Home() {
     <div className="subscribeSection">
     <Subscribe/>
     </div>
-    <div className="footersection">
+    <div className="footersection" style={{marginTop:'2vh'}}>
       <Footers/>
     </div>
     </div>
