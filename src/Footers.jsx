@@ -20,7 +20,7 @@ export default function Footers() {
                <p>Address: &nbsp;
                Rajpur Rd, behind ICICI Bank, opp. Gandhi Park, Main Gate, Dehradun, Uttarakhand 248001</p>
                </Col>
-               <Col md={4} sm={12}  style={{background:'red',
+               <Col md={4} sm={12}  style={{
               marginLeft:'-32px'}}>
                <ul>
                 <li><FaSquarePhone style={{fontSize:'20px'}}/>&nbsp;70602 31050 </li>
