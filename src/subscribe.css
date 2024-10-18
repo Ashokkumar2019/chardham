@@ -1,15 +1,32 @@
-.html_bg{
-    animation: blink 3.5s infinite;
-    
+.mycontainer{
+    background-color: wheat;
+  
   }
-  @keyframes blink {
+  .text_color{
+    color:#4B6F44;
+  }
+  
+
+  /* @keyframes blink {
     50% {
       opacity: 0;
     }
-  }
+  } */
   @media screen and (max-width: 600px) {
-    .html_bg{
+    /* .html_bg{
         display: none;
+    } */
+    .mycontainer{
+ background-image:url(/background_image1.jpg);
+ background-repeat:no-repeat;
+ background-size:100% 100%;
+ 
     }
-    
+    .text_color{
+      color:#ffff99;
+      
+    }
+    .show_hide{
+    display: none;
+    }
   }

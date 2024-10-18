@@ -6,17 +6,18 @@ import { GiHelicopter } from "react-icons/gi";
 export default function Subscribe() {
   return (
     <div >
-    <Container >
-    {/* style={{backgroundImage:`url(/background_image1.jpg)`,backgroundRepeat:'no-repeat',backgroundSize:'100% 100%'}} */}
+    <Container  >
     
-    <Row className='align-items-center d-flex justify-content-between bg-warning' >
+    
+    <Row className='align-items-center d-flex justify-content-between mycontainer text-center'  >
     
         <Col sm={9} xs={9} >
-        <h2 className='text-center ' style={{marginTop:'5vh',color:'#4B6F44'}}>Kedarnath-Badrinath Helicopter Tour
+        <h2 className='text-center text_color ' style={{marginTop:'5vh'}}>Kedarnath-Badrinath Helicopter Tour
    
    {/* <i className="fa fa-plane" style={{ fontSize: '1em',  color: '#f7786b' }}></i>  */}
-   &nbsp;&nbsp;<GiHelicopter />
-   <p style={{color: '#4B6F44',fontSize:'26px', fontWeight:900 }}> 49999/-PP <Link to={`/Itenary/CD`}><Button variant="warning">More Information</Button></Link></p>
+   &nbsp;&nbsp;
+  <GiHelicopter  className='show_hide'/>
+   <p style={{fontSize:'26px', fontWeight:900 }} className='text_color'> 49999/-PP <Link to={`/Itenary/CD`}><Button variant="warning">More Information</Button></Link></p>
    
 
    </h2>
