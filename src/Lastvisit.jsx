@@ -4,7 +4,7 @@ import data from './jsondata/Visit.json'
 import data1 from './jsondata/Visit1.json'
 import { Container, Row, Col, Card, Button, Placeholder } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
+import { GiHelicopter } from "react-icons/gi";
 export default function Lastvisit() {
   const packageRef = useRef(null);
   const packageRef1 = useRef(null);
@@ -22,10 +22,10 @@ export default function Lastvisit() {
   }, [location]);
   return (
     <div>
-    <h2 className='text-center my-5'> Top packages for traveling to the Char Dham by Road </h2>
+    <h2 className='text-center my-5' id="package" ref={packageRef}> Top packages for traveling to the Char Dham by Road </h2>
        
     <Container>
-    <Row id="package" ref={packageRef}>
+    <Row >
       {data.map((item, index) => (
         <Col key={index} md={4} sm={6} className="mb-4">
           <Card className="h-100 d-flex flex-column"
@@ -44,16 +44,20 @@ export default function Lastvisit() {
       ))}
     </Row>
   </Container>
-  <h2 className='text-center my-5'> Top packages for traveling to the Char Dham by Helicopter </h2>
-  <Container id="package1" ref={packageRef1}>
+  <h2 className='text-center my-5' id="package1" ref={packageRef1}> Top packages for traveling to the Char Dham by Helicopter <GiHelicopter  className='show_hide'/></h2>
+  <Container >
     <Row >
       {data1.map((item, index) => (
         <Col key={index} md={4} sm={6} className="mb-4">
           <Card className="h-100 d-flex flex-column" >
           {/* ref={item.Params} */}
-            <Card.Img variant="top" src={item.imagePath} alt={item.title} />
+            {/* <Card.Img variant="top" src={item.imagePath} alt={item.title} /> */}
             <Card.Body>
-              <Card.Title>{item.title}</Card.Title>
+              <Card.Title>{item.title}
+
+              
+              </Card.Title>
+             
               <Card.Title className='fw-bold text-danger' >{item.price}</Card.Title>
               <Card.Text>{item.description}</Card.Text>
               <Link to={`/Itenary/${item.Params}`}><Button variant="primary" id={`${item.Params}`} >More Information</Button></Link>

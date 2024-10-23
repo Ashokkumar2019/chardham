@@ -17,7 +17,7 @@ export default function Contact() {
                <h1 style={{ 
   fontWeight: 500,
   
-  fontSize: '1.5rem'}} className='text-info fs-1'>Let's get in touch</h1>
+  fontSize: '1.5rem'}} className='text-warning fs-1'>Let's get in touch</h1>
   <address className='mt-5'>
               <p><strong>Address:&nbsp;</strong>
               17, Rajpur Rd, behind ICICI Bank, opp. Gandhi Park, Main Gate, Dehradun, Uttarakhand 248001</p>

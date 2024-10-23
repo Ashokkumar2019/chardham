@@ -323,6 +323,57 @@ const redirectToSection1 = () => {
    </div>
    </div>}
   
+   {place==='DD'&&<div>
+    <ul>
+  <li>
+    <strong>Departure from Dehradun:</strong>
+    <ul>
+      <li>Start from Sahastradhara helipad, Dehradun.</li>
+      <li>Complete paperwork and enjoy the scenic helicopter ride.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Kedarnath Visit:</strong>
+    <ul>
+      <li>Arrive at Kedarnath and visit the revered Kedarnath Temple (dedicated to Lord Shiva).</li>
+      <li>Participate in special pujas.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Badrinath Visit:</strong>
+    <ul>
+      <li>Fly to Badrinath after Kedarnath.</li>
+      <li>Visit Badrinath Temple (dedicated to Lord Vishnu).</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Return to Dehradun:</strong>
+    <ul>
+      <li>Fly back to Dehradun the same day, completing the pilgrimage.</li>
+    </ul>
+  </li>
+</ul>
+
+<ul>
+  <li><strong>Key Features:</strong></li>
+  <ul>
+    <li>Visit both temples in a single day.</li>
+    <li>Comfortable and time-efficient.</li>
+    <li>Spiritual immersion in the divine ambiance of the Himalayas.</li>
+  </ul>
+</ul>
+
+<ul>
+  <li><strong>Important Notes:</strong></li>
+  <ul>
+    <li>Book in advance due to high demand.</li>
+    <li>Be flexible with schedules as weather conditions may affect flights.</li>
+    <li>Follow safety protocols during the journey.</li>
+  </ul>
+</ul>
+
+
+   </div>}
    </>
   )
 }
