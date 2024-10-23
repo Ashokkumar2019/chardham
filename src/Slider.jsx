@@ -6,9 +6,9 @@ import data from './jsondata/Sliderdata.json'
 export default function Slider() {
   return (
     <div>
-       <Carousel fade>
+       <Carousel fade interval={2000} >
       {data.map((item, index) => (
-        <Carousel.Item key={index}>
+        <Carousel.Item   key={index} >
           <img
             className="d-block w-100"
             src={item.image}

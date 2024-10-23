@@ -12,10 +12,23 @@ useEffect(() => {
   window.scrollTo(0, 0);
 }, []);
 
+
+const redirectToSection = () => {
+  navigate(`/#package`); // Adding the hash to the URL
+};
+const redirectToSection1 = () => {
+  navigate(`/#package1`); // Adding the hash to the URL
+};
   return (
     <>
     <div style={{display:'flex',justifyContent:'flex-end',marginTop:'2vh'}}>
-    <Button variant="link"  onClick={()=>navigate('/')}  >Back</Button>
+    {place==='Bh'||place==='Kh'||place=='GI'||place=='YI'?<Button variant="link"  
+    // onClick={()=>navigate(`/${place}`)} 
+    onClick={redirectToSection} 
+      >Back</Button>:<Button variant="link"  
+      // onClick={()=>navigate(`/${place}`)} 
+      onClick={redirectToSection1} 
+        >Back</Button>}
     </div>
     {place==='Bh'&&
     <div >
@@ -28,7 +41,7 @@ useEffect(() => {
         <li><strong>Breakfast Stop:</strong> At Devprayag or Srinagar.</li>
         <li><strong>Afternoon:</strong> Arrive in Badrinath, check in, and have lunch.</li>
         <li><strong>Evening:</strong> Visit Badrinath Temple, attend evening Aarti (6:30 PM), explore Tapt Kund and Saraswati River.</li>
-        <li><strong>Night:</strong> Dinner and rest.</li>
+        <li><strong>Night:</strong> Rest.</li>
       </ul>
     </div>
   </div>
@@ -60,9 +73,9 @@ useEffect(() => {
 
     {/* Kedarnath itenary */}
 {place==='Kh'&&<div >
-    <div class="timeline">
-  <div class="container1 left1">
-    <div class="content1">
+    <div className="timeline">
+  <div className="container1 left1">
+    <div className="content1">
       <h2>Day 1: Rishikesh to Kedarnath</h2>
       <ul>
         <li><strong>5:00 AM:</strong> Depart from Rishikesh.</li>
@@ -70,20 +83,20 @@ useEffect(() => {
         <li><strong>Early Afternoon:</strong> Arrive in Gaurikund, have lunch.</li>
         <li><strong>Post-Lunch: </strong> Begin the 16 km trek to Kedarnath (6-8 hours). Optional: Hire a pony or palanquin.</li>
         <li><strong>Evening</strong> Reach Kedarnath, check in, and visit Kedarnath Temple for evening Aarti.</li>
-        <li><strong>Night:</strong> Dinner and rest.</li>
+        <li><strong>Night:</strong>  Rest.</li>
       </ul>
     </div>
   </div>
-  <div class="container1 right1">
-    <div class="content1">
+  <div className="container1 right1">
+    <div className="content1">
       <h2>Day 2: Kedarnath to Rishikesh</h2>
       <ul>
         <li><strong>4:30 AM: </strong> Attend the morning Aarti at Kedarnath Temple.</li>
         <li><strong>Morning: </strong>Breakfast and explore the temple.</li>
         <li><strong>Midday: </strong>Start the trek back to Gaurikund.</li>
         <li><strong>Afternoon:</strong> Lunch at Gaurikund.</li>
-        <li><strong>Early Afternoon:</strong> Drive back to Rishikesh.</li>
-        <li><strong>Evening:</strong> Arrive in Rishikesh.</li>
+        <li><strong>Evening:</strong> Drive back to Rishikesh.</li>
+        
       </ul>
     </div>
   </div>
@@ -108,16 +121,16 @@ useEffect(() => {
 
    {/* Gangotri itenary */}
 {place==='GI'&&<div >
-    <div class="timeline">
-  <div class="container1 left1">
-    <div class="content1">
+    <div className="timeline">
+  <div className="container1 left1">
+    <div className="content1">
       <h2>Day 1: Rishikesh to Gangotri</h2>
       <ul>
         <li><strong>5:00 AM:</strong> Depart from Rishikesh.</li>
         <li><strong>Breakfast:</strong> Stop in Uttarkashi or at a roadside dhaba.</li>
         <li><strong>Noon:</strong> Arrive in Gangotri, check in, and have lunch.</li>
         <li><strong>Post-Lunch: </strong>Visit Gangotri Temple for prayers and explore the Bhagirathi River area.</li>
-        <li><strong>Evening:</strong> Dinner and overnight stay.</li>
+        {/* <li><strong>Evening:</strong> Dinner and overnight stay.</li> */}
         
       </ul>
     </div>
@@ -152,22 +165,22 @@ useEffect(() => {
 
    {/* yamunotri itenary */}
 {place==='YI'&&<div >
-    <div class="timeline">
-  <div class="container1 left1">
-    <div class="content1">
+    <div className="timeline">
+  <div className="container1 left1">
+    <div className="content1">
       <h2>Day 1: Rishikesh to Yamunotri</h2>
       <ul>
         <li><strong>6:00 AM:</strong> Depart from Rishikesh, have breakfast en route.</li>
         <li><strong>Noon:</strong> Arrive at Janki Chatti, check into your accommodation, and have lunch.</li>
         {/* <li><strong>Noon:</strong> Arrive in Gangotri, check in, and have lunch.</li> */}
         <li><strong>Post-Lunch: </strong>Begin the 6 km trek to Yamunotri (3-4 hours).</li>
-        <li><strong>Evening:</strong>Visit Yamunotri Temple, return to Janki Chatti for dinner and rest.</li>
+        <li><strong>Evening:</strong>Visit Yamunotri Temple, return to Janki Chatti  and rest.</li>
         
       </ul>
     </div>
   </div>
-  <div class="container1 right1">
-    <div class="content1">
+  <div className="container1 right1">
+    <div className="content1">
       <h2>Day 2: Yamunotri to Rishikesh</h2>
       <ul>
         <li><strong>Morning:</strong> Breakfast and optional second visit to Yamunotri or nearby hot springs.</li>
@@ -196,22 +209,22 @@ useEffect(() => {
 
    {/* Phata and Kedarnath */}
 {place==='PK'&&<div >
-    <div class="timeline">
-  <div class="container1 left1">
-    <div class="content1">
+    <div className="timeline">
+  <div className="container1 left1">
+    <div className="content1">
       <h2>Day 1: Rishikesh to Phata and Kedarnath</h2>
       <ul>
         <li><strong>6:00 AM: </strong>Depart from Rishikesh, drive to Phata (5-6 hours).</li>
         <li><strong>Noon:</strong> Arrive in Phata, check into a hotel.</li>
         <li><strong>Lunch:</strong>  Enjoy lunch at your accommodation.</li>
         <li><strong>Afternoon:  </strong>Helicopter ride to Kedarnath (10-15 minutes). Visit Kedarnath Temple and explore.</li>
-        <li><strong>Evening:</strong>Return by helicopter to Phata. Dinner and overnight stay.</li>
+        <li><strong>Evening:</strong>Return by helicopter to Phata.</li>
         
       </ul>
     </div>
   </div>
-  <div class="container1 right1">
-    <div class="content1">
+  <div className="container1 right1">
+    <div className="content1">
       <h2>Day 2: Phata to Rishikesh</h2>
       <ul>
         <li><strong>Morning:</strong> Breakfast at your hotel, explore Phata if time permits.</li>
@@ -237,19 +250,19 @@ useEffect(() => {
    </div>}
 { /*char dham helicopter*/ }
 {place==='CD'&&<div >
-    <div class="timeline">
-  <div class="container1 left1">
-    <div class="content1">
+    <div className="timeline">
+  <div className="container1 left1">
+    <div className="content1">
       <h2>Day 1: Arrival in Dehradun</h2>
       <ul>
         <li><strong>Morning:</strong>Arrive in Dehradun, transfer to hotel.</li>
-        <li><strong>Evening:</strong> Briefing session, dinner, and rest.</li>
+        <li><strong>Evening:</strong> Briefing session,  rest.</li>
         
       </ul>
     </div>
   </div>
-  <div class="container1 right1">
-    <div class="content1">
+  <div className="container1 right1">
+    <div className="content1">
       <h2>Day 2: Dehradun to Yamunotri</h2>
       <ul>
         <li><strong>Early Morning: </strong>Helicopter to Yamunotri (1-hour flight).</li>
@@ -261,8 +274,8 @@ useEffect(() => {
     </div>
   </div>
   
-  <div class="container1 left1">
-    <div class="content1">
+  <div className="container1 left1">
+    <div className="content1">
       <h2>Day 3: Dehradun to Gangotri</h2>
       <ul>
         <li><strong>Early Morning: </strong>Helicopter to Gangotri.</li>
@@ -272,8 +285,8 @@ useEffect(() => {
       </ul>
     </div>
   </div>
-  <div class="container1 right1">
-    <div class="content1">
+  <div className="container1 right1">
+    <div className="content1">
       <h2>Day 4: Dehradun to Kedarnath</h2>
       <ul>
         <li><strong>Early Morning:  </strong>Helicopter to Kedarnath.</li>
@@ -284,8 +297,8 @@ useEffect(() => {
       </ul>
     </div>
   </div>
-  <div class="container1 left1">
-    <div class="content1">
+  <div className="container1 left1">
+    <div className="content1">
       <h2>Day 5: Dehradun to Badrinath</h2>
       <ul>
         <li><strong>Early Morning: </strong>Helicopter to Badrinath.</li>

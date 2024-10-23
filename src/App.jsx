@@ -22,7 +22,7 @@ function App() {
       <div>
       <Navi/>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/:section?" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/Badrinath" element={<Badrinath/>} />
           <Route path="/Kedarnath" element={<Kedarnath/>} />
